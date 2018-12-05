@@ -1,1 +1,28 @@
-theme: jekyll-theme-merlot
+title: Wayne Boka, Web Developer
+email: boka.wayne+blog@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Wayne Boka is a web developer based in Westfield, PA. He works
+  with a variety of technologies including ColdFusion, JavaScript,
+  HTML, CSS, Django, and Python.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://wboka.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: wtboka
+github_username:  wboka
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
