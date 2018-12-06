@@ -9,20 +9,12 @@ url: "https://wboka.github.io" # the base hostname & protocol for your site, e.g
 twitter_username: wtboka
 github_username:  wboka
 
+# Excerpts
+excerpt_separator: <!--more-->
+show_excerpts: true
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

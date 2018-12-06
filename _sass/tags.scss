@@ -1,0 +1,21 @@
+.tags {
+	display: block;
+	clear: both;
+	font-size: 0.75em;
+	margin: 0 0 5px 0;
+}
+
+.tag {
+	background: #666666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #ffffff;
+	display: inline-block;
+	padding: 0.25em;
+	margin: 0 0.25em;
+}
+
+.tag:first-child {
+	margin: 0 0.25em 0 0;
+}
