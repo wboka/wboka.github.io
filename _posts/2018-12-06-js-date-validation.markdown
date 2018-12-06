@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vanilla JavaScript Date Validation"
+title: "JavaScript Date Validation"
 date: 2018-12-06 07:59:35 -0500
 categories: [web-development]
 tags: [javascript, date, validation, post-mortem]
@@ -48,7 +48,6 @@ The following dates were entered by the user, **1213/2018** and **12130/2018**. 
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [Google Fonts](https://fonts.google.com)
 - [Pug](https://pugjs.org)
-- [Vanilla JS](http://vanilla-js.com)
 - [VueJS](https://vuejs.org)
 
 **_Wayne_**
