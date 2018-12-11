@@ -13,6 +13,10 @@ github_username:  wboka
 excerpt_separator: <!--more-->
 show_excerpts: true
 
+# Paginatation
+# paginate: 5
+# paginate_path: "/:num/"
+
 # Build settings
 markdown: kramdown
 theme: minima
