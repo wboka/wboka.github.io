@@ -9,6 +9,8 @@ if ("serviceWorker" in navigator) {
 		e.preventDefault();
 		deferredPrompt = e;
 
+		const btnAdd = document.getElementById("add-to-home-screen");
+
 		btnAdd.style.display = "block";
 
 		btnAdd.addEventListener("click", e => {

@@ -1,10 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Overpass');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Overpass");
 
 body,
 html {
-	font: 400 16px/1.5 'Overpass', 'Noto Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+	font: 400 16px/1.5 "Overpass", "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+		sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.post-meta, .p-name, footer p {
+button {
+	background: #f6993f;
+	border: 1px solid #1c3d5a;
+	bottom: 0;
+	color: #000000;
+	font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	padding: 1em;
+	position: fixed;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.post-meta,
+.p-name,
+footer p {
 	color: #595959;
 }
