@@ -1,4 +1,5 @@
 title: Wayne Boka, Web Developer
+author: Wayne Boka
 email: wayne@bokasolutions.com
 description: >- # this means to ignore newlines until "baseurl:"
   Wayne Boka is a web developer based in Westfield, PA. He works
@@ -8,10 +9,22 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wboka.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wtboka
 github_username:  wboka
+website: https://www.bokasolutions.com
+rss: RSS
 
 # Excerpts
 excerpt_separator: <!--more-->
 show_excerpts: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      author: Wayne Boka
+
 
 # Paginatation
 # paginate: 5

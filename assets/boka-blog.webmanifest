@@ -1,0 +1,21 @@
+{
+	"name": "Boka's Blog",
+	"short_name": "Boka's Blog",
+	"description": "Progressive Web App for wboka.github.io",
+	"icons": [
+		{
+			"src": "images/wb32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "images/wb.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"start_url": "/",
+	"display": "standalone",
+	"theme_color": "#2a4b7c",
+	"background_color": "#2a4b7c"
+}

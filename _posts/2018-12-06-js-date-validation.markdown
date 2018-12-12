@@ -8,8 +8,6 @@ tags: [javascript, date, validation, post-mortem]
 
 Hello all!
 
-## Background
-
 I ran into an interesting situation with dates yesterday. Our users had mistyped a seemingly valid date. Since we didn't have client side validation the bad date was passed to the server and ultimately the database. This failed thankfully. In an effort to prevent something like this happening in the future we devised the JavaScript solution seen below.
 
 <!--more-->
