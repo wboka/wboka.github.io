@@ -4,22 +4,22 @@
 	"description": "Progressive Web App for wboka.github.io",
 	"icons": [
 		{
-			"src": "assets/images/wb32x32.png",
+			"src": "images/wb32x32.png",
 			"sizes": "32x32",
 			"type": "image/png"
 		},
 		{
-			"src": "assets/images/wb192x192.png",
+			"src": "images/wb192x192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "assets/images/wb.png",
+			"src": "images/wb.png",
 			"sizes": "250x250",
 			"type": "image/png"
 		},
 		{
-			"src": "assets/images/wb512x512.png",
+			"src": "images/wb512x512.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
