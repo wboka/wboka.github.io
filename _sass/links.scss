@@ -8,14 +8,14 @@ main, footer {
 		padding: 0.25em;
 		text-decoration: none;
 
-		&:hover {
-			color: #ffffff;
-			background: #1c3d5a;
-		}
-
 		&:visited {
 			background: #ffffff;
 			color: #1c3d5a;
+		}
+
+		&:hover {
+			color: #ffffff;
+			background: #1c3d5a;
 		}
 	}
 }

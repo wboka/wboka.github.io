@@ -25,6 +25,20 @@ defaults:
     values:
       author: Wayne Boka
 
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: year-archive
+    month: month-archive
+    day: day-archive
+    category: category-tag-archive
+    tag: category-tag-archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # Paginatation
 # paginate: 5
@@ -34,4 +48,5 @@ defaults:
 markdown: kramdown
 theme: minima
 plugins:
+  - jekyll-archives
   - jekyll-feed
